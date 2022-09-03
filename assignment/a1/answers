@@ -104,7 +104,7 @@ tensorflow_1_3:
  - Its range matches what is allowed for a probability.
 
 # Question 4 (/2): What is the minimum number of hidden layers with the same numer of neurons in each you can get away with and still achieve the desired loss on the training set?
-tensorflow_1_4: 5
+tensorflow_1_4: 1
 
 # Question 5 (/2): What is the smallest number of neurons you can use in a layer in the network with the largest number of layers and still get the desired loss on the training set?
 tensorflow_1_5: 5
