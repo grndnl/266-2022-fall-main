@@ -18,11 +18,11 @@
 
 # Question 2.a (/1): What is the percentage of positive examples in the training set (e.g. 72% is 0.72)?
 neural_network_text_classification_2_2_a: 
-- your answer
+- 0.4955809385983047
 
 # Question 2.b (/1): What is the percentage of positive examples in the test set (e.g. 72% is 0.72)?
 neural_network_text_classification_2_2_b: 
-- your answer
+- 0.49963741841914433
 
 
 # ------------------------------------------------------------------
@@ -30,10 +30,10 @@ neural_network_text_classification_2_2_b:
 # ------------------------------------------------------------------
 
 # Question 2.1.a (/3): What (in percent (e.g. 0.651 = 65.1)) is the highest validation accuracy that you observed after 10 epochs?
-neural_network_text_classification_2_1_2_1_a: 0
+neural_network_text_classification_2_1_2_1_a: 50.26
 
 # Question 2.1.b (/3): What (in percent (e.g. 0.651 = 65.1)) is the highest validation accuracy that you observed for the shuffled run after 10 epochs?
-neural_network_text_classification_2_1_2_1_b: 0
+neural_network_text_classification_2_1_2_1_b: 76.08
 
 
 # ------------------------------------------------------------------
@@ -41,19 +41,19 @@ neural_network_text_classification_2_1_2_1_b: 0
 # ------------------------------------------------------------------
 
 # Question 2.2.1.a (/2): Calculate the context vector for the following query and key/value vectors.
-neural_network_text_classification_2_2_2_2_1_a: [d0, d1, d2]
+neural_network_text_classification_2_2_2_2_1_a: [0, 0.5, -1]
 
 # Question 2.2.1.b (/2): What are the weights for the key/value vectors?
-neural_network_text_classification_2_2_2_2_1_b: [d0, d1]
+neural_network_text_classification_2_2_2_2_1_b: [0.5, 0.5]
 
 # Question 2.2.2.a (/10): What (in percent (e.g. 0.651 = 65.1)) is the highest validation accuracy that you observed for the wan training after 10 epochs?
-neural_network_text_classification_2_2_2_2_2_a: 0
+neural_network_text_classification_2_2_2_2_2_a: 77.78
 
 # Question 2.2.2.b (/3): List the 5 most important words separated by commas. (Again, if a word appears twice, note it twice.)
-neural_network_text_classification_2_2_2_2_2_b: [d0, d1, d2, d3, d4]
+neural_network_text_classification_2_2_2_2_2_b: [20659, 37254, 18063, 18063, 20413]
 
 # Question 2.2.2.c (/3): List the 5 least important words separated by commas. (Again, if a word appears twice, note it twice.)
-neural_network_text_classification_2_2_2_2_2_c: [d0, d1, d2, d3, d4]
+neural_network_text_classification_2_2_2_2_2_c: [32597, 32597, 32597, 23245, 12139]
 
 
 # ------------------------------------------------------------------
@@ -61,13 +61,13 @@ neural_network_text_classification_2_2_2_2_2_c: [d0, d1, d2, d3, d4]
 # ------------------------------------------------------------------
 
 # Question 2.3.a (/3): What (in percent (e.g. 0.651 = 65.1)) is the highest validation accuracy that you observed for the static model after 10 epochs?
-neural_network_text_classification_2_3_2_3_a: 0
+neural_network_text_classification_2_3_2_3_a: 75.82
 
 # Question 2.3.b (/3): What (in percent (e.g. 0.651 = 65.1)) is the highest validation accuracy that you observed for the model where you initialized with word2vec vectors but allow them to retrain for 3 epochs?
-neural_network_text_classification_2_3_2_3_b: 0
+neural_network_text_classification_2_3_2_3_b: 78.92
 
 # Question 2.3.c (/3): What (in percent (e.g. 0.651 = 65.1)) is the highest validation accuracy that you observed for the model where you initialized randomly and then trained?
-neural_network_text_classification_2_3_2_3_c: 0
+neural_network_text_classification_2_3_2_3_c: 79.62
 
 
 # ------------------------------------------------------------------
@@ -77,7 +77,6 @@ neural_network_text_classification_2_3_2_3_c: 0
 # Question 3.1.a (/1): Why do the attention_masks have 4 and 1 zeros, respectively?
 # (This question is multiple choice.  Delete all but the correct answer).
 neural_network_text_classification_3_3_1_a: 
- - For the first example the last four tokens belong to a different segment. For the second one it is only the last token.
  - For the first example 4 positions are padded while for the second one it is only one.
 
 # Question 3.1.b (/1): How many outputs are there?
