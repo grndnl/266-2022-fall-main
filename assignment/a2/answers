@@ -47,7 +47,7 @@ neural_network_text_classification_2_2_2_2_1_a: [0, 0.5, -1]
 neural_network_text_classification_2_2_2_2_1_b: [0.5, 0.5]
 
 # Question 2.2.2.a (/10): What (in percent (e.g. 0.651 = 65.1)) is the highest validation accuracy that you observed for the wan training after 10 epochs?
-neural_network_text_classification_2_2_2_2_2_a: 77.78
+neural_network_text_classification_2_2_2_2_2_a: 77.86
 
 # Question 2.2.2.b (/3): List the 5 most important words separated by commas. (Again, if a word appears twice, note it twice.)
 neural_network_text_classification_2_2_2_2_2_b: [20659, 37254, 18063, 18063, 20413]
@@ -81,35 +81,34 @@ neural_network_text_classification_3_3_1_a:
 
 # Question 3.1.b (/1): How many outputs are there?
 neural_network_text_classification_3_3_1_b: 
-- your answer
+- 2
 
 # Question 3.1.c (/1): Which output do we need to use to get token-level embeddings?
 # (This question is multiple choice.  Delete all but the correct answer).
 neural_network_text_classification_3_3_1_c: 
  - the first
- - the second
 
 # Question 3.1.d (/2): Which token number corresponds to 'bank' in the first sentence?
 neural_network_text_classification_3_3_1_d: 
-- your answer
+- 2
 
 # Question 3.1.e (/2): Which token number corresponds to 'bank' in the second sentence?
 neural_network_text_classification_3_3_1_e: 
-- your answer
+- 4
 
 # Question 3.1.f (/3): What is the cosine similarity between the BERT outputs for the two occurences of 'bank' in the two sentences?
 neural_network_text_classification_3_3_1_f: 
-- your answer
+- 0.74
 
 # Question 3.1.g (/3): How does this relate to the cosine similarity of 'this' (sentence 1) and 'the' (sentence 2). Compute the cosine similarity.
 neural_network_text_classification_3_3_1_g: 
-- your answer
+- 0.81
 
 # Question 3.2.a (/7): What (in percent (e.g. 0.651 = 65.1)) is the highest validation accuracy that you observed for the [CLS]-classification model after training for 2 epochs?
-neural_network_text_classification_3_3_2_a: 0
+neural_network_text_classification_3_3_2_a: 70.04
 
 # Question 3.3.a (/7): What (in percent (e.g. 0.651 = 65.1)) is the highest validation accuracy that you observed for the BERT-averaging-classification model after training for 2 epochs?
-neural_network_text_classification_3_3_3_a: 0
+neural_network_text_classification_3_3_3_a: 75.92
 
 # Question 3.4.a (/7): What (in percent (e.g. 0.651 = 65.1)) is the highest validation accuracy that you observed for the BERT-CNN-classification model after 2 epochs?
-neural_network_text_classification_3_3_4_a: 0
+neural_network_text_classification_3_3_4_a: 80.50
