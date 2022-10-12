@@ -20,19 +20,19 @@
 
 # Question 2.1 (/5): How many trainable parameters are in your dense hidden layer?
 multiclass_text_classification_2_2_1: 
-- your answer
+- 154569
 
 # Question 2.2 (/5): How many trainable parameters are in your classification layer?
 multiclass_text_classification_2_2_2: 
-- your answer
+- 4040
 
 # Question 2.3 (/5): What is the Test accuracy score you get from your model with a batch size of 8?
 multiclass_text_classification_2_2_3: 
-- your answer
+- 0.66684
 
 # Question 2.4 (/5): What is the macro average f1 score you get from the classification report for batch size 8?
 multiclass_text_classification_2_2_4: 
-- your answer
+- 0.65
 
 
 # ------------------------------------------------------------------
@@ -41,11 +41,11 @@ multiclass_text_classification_2_2_4:
 
 # Question 3.1 (/5): What is the test accuracy you get when you run the cleaned model with batch size 8?
 multiclass_text_classification_3_3_1: 
-- your answer
+- 0.70981
 
 # Question 3.2 (/5): What is the weighted avg F1 score in the classification when you run the cleaned model with batch size of 8?
 multiclass_text_classification_3_3_2: 
-- your answer
+- 0.69
 
 
 # ------------------------------------------------------------------
@@ -54,15 +54,11 @@ multiclass_text_classification_3_3_2:
 
 # Question 4.1 (/5): What is the Test accuracy you get when you run the cleaned model with batch size 16?
 multiclass_text_classification_4_4_1: 
-- your answer
+- 0.72467
 
 # Question 4.2 (/5): Which category is consistenly underperforming in both the classification reports and the confusion matrices?
 # (This question is multiple choice.  Delete all but the correct answer).
 multiclass_text_classification_4_4_2: 
- - comp.windows.x
- - rec.sport.baseball
- - sci.med
- - soc.religion.christian
  - talk.religion.misc
 
 # Question 4.3 (/2): The training data set is evenly distributed across all of the categories (True or False)?
