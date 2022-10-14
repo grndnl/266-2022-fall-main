@@ -58,6 +58,7 @@ neural_network_basics_c_2: 1
 
 # Question 1 (/2): What is the probability of the third example in the batch?
 neural_network_basics_d_1: 0.95354128
+# I had the right answer in the notebook, I just wrote down the second example instead of the third.
 
 # Question 2 (/2): What is the cross-entropy loss if its label is negative?
 neural_network_basics_d_2: 0.6646322280463387
