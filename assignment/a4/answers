@@ -18,15 +18,15 @@
 
 # Question 1 (/4): How many images are in the training set?
 image_captioning_a_1: 
-- your answer
+- 82783
 
 # Question 2 (/4): To the nearest integer, how many captions are there per image?
 image_captioning_a_2: 
-- your answer
+- 5
 
 # Question 3 (/4): How many unique tokens are there after splitting captions on words only?
 image_captioning_a_3: 
-- your answer
+- 45186
 
 
 # ------------------------------------------------------------------
@@ -36,34 +36,27 @@ image_captioning_a_3:
 # Question 1 (/1): What parts of the CNN were trained?
 # (This question is multiple choice.  Delete all but the correct answer).
 image_captioning_b_1: 
- - The kernels within the CNN
  - The top feed forward layer of the CNN
- - All of the above
 
 # Question 2 (/1): What was the biggest concern when deciding?
 # (This question is multiple choice.  Delete all but the correct answer).
 image_captioning_b_2: 
- - Training time
  - Overfitting
 
 # Question 3 (/1): How was the encoded image representation input into the decoder?
 # (This question is multiple choice.  Delete all but the correct answer).
 image_captioning_b_3: 
- - As the initial hidden vector
  - As the first word embedding input
 
 # Question 4 (/1): Which metric did the authors use to determine success?
 # (This question is multiple choice.  Delete all but the correct answer).
 image_captioning_b_4: 
  - BLEU
- - ROUGE
 
 # Question 5 (/1): What beam width is equivalent to one where you select the highest probability word in each decoding step?
 # (This question is multiple choice.  Delete all but the correct answer).
 image_captioning_b_5: 
- - 0
  - 1
- - infinite
 
 
 # ------------------------------------------------------------------
@@ -73,15 +66,12 @@ image_captioning_b_5:
 # Question 1 (/1): What is the attention over?
 # (This question is multiple choice.  Delete all but the correct answer).
 image_captioning_c_1: 
- - The raw pixels
- - Multiple independently trained CNNs over an object classification task, each yielding an annotation
  - Vectors are extracted from a layer of the CNN with a receptive field (image region contributing to it) smaller than the full image
 
 # Question 2 (/1): What do the figures with highlight shading represent in Figures 2, 3 and 5?
 # (This question is multiple choice.  Delete all but the correct answer).
 image_captioning_c_2: 
  - The part of the image contributing to the word currently being decoded
- - The part of the image most contributing to the generated caption
 
 
 # ------------------------------------------------------------------
@@ -89,13 +79,13 @@ image_captioning_c_2:
 # ------------------------------------------------------------------
 
 # Question 1 (/2): What is the animal tag you selected?
-image_captioning_d_1: your answer
+image_captioning_d_1: sheep
 
 # Question 2 (/2): What is the transportation tag you selected?
-image_captioning_d_2: your answer
+image_captioning_d_2: motorcycle
 
 # Question 3 (/2): What is the probability associated with the most likely caption for image 1?
-image_captioning_d_3: 0.00000
+image_captioning_d_3: 0.94
 
 # Question 4 (/2): What is the probability associated with the most likely caption for image 2?
-image_captioning_d_4: 0.00000
+image_captioning_d_4: 0.97
